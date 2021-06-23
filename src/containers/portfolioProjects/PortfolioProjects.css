@@ -1,0 +1,22 @@
+#portfolioProjects {
+  border-top: 1px solid #e6ecf8;
+}
+
+.pp {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.pp-title {
+  margin: 1.86rem;
+}
+
+.pp-heading {
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  width: 90vw;
+}

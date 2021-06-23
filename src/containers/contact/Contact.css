@@ -1,0 +1,41 @@
+#contact {
+  background: #7510f7;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.footer-logo {
+    margin-left: 0;
+}
+
+.footer-logo > .logo-link > .brand {
+    color: black;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 1.75rem;
+}
+
+p.footer {
+  margin: 0;
+  color: #e6ecf8;
+  width: 70vw;
+}
+
+.copyright {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+}

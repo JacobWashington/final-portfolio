@@ -1,0 +1,36 @@
+.home {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #141c3a;
+  padding-bottom: 0;
+}
+
+.home-title {
+  font-size: 2.75rem;
+  margin: 0 auto 0 auto;
+  font-weight: 800;
+  line-height: 1.125;
+}
+
+.home-subtitle {
+  margin: 0;
+  line-height: 1.125;
+  font-size: 2rem;
+  font-weight: 575;
+}
+
+.home-heading {
+  font-family: "Roboto", sans-serif;
+  margin: 5vh 1.75vw 1.5rem 1.75vw;
+  font-size: 1.25rem;
+}
+
+.avatar {
+  margin: 0 0 2rem 0;
+  width: 80vw;
+  max-width: 100%;
+}
+
+.coding {
+  max-width: 100vw;
+}

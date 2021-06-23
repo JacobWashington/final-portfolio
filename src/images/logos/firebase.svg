@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M1.253 280.732l1.605-3.131 99.353-188.518-44.15-83.475C54.392-1.283 45.074.474 43.87 8.188L1.253 280.732z" id="a"/>
+    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="b">
+      <feGaussianBlur stdDeviation="17.5" in="SourceAlpha" result="shadowBlurInner1"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0" in="shadowInnerInner1"/>
+    </filter>
+    <path d="M134.417 148.974l32.039-32.812-32.039-61.007c-3.042-5.791-10.433-6.398-13.443-.59l-17.705 34.109-.53 1.744 31.678 58.556z" id="c"/>
+    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="d">
+      <feGaussianBlur stdDeviation="3.5" in="SourceAlpha" result="shadowBlurInner1"/>
+      <feOffset dx="1" dy="-9" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.09 0" in="shadowInnerInner1"/>
+    </filter>
+  </defs>
+  <path d="M 67.89 403.583 L 70.918 399.345 L 214.104 127.653 L 214.406 124.777 L 151.288 6.215 C 145.997 -3.716 131.109 -1.205 129.375 9.913 L 67.89 403.583 Z" fill="#FFC24A" style=""/>
+  <path d="M 69.677 400.352 L 71.966 395.887 L 213.653 127.041 L 150.691 7.998 C 145.458 -1.83 132.17 0.676 130.453 11.677 L 69.677 400.352 Z" fill="#FFA712" fill-rule="evenodd" style=""/>
+  <path d="M 69.677 400.352 L 71.966 395.887 L 213.653 127.041 L 150.691 7.998 C 145.458 -1.83 132.17 0.676 130.453 11.677 L 69.677 400.352 Z" filter="url(#b)" style=""/>
+  <path d="M 260.421 214.457 L 307.418 166.326 L 260.406 76.582 C 255.944 68.086 243.484 68.061 239.069 76.582 L 213.951 124.48 L 213.951 128.559 L 260.419 214.457 Z" fill="#F4BD62" style=""/>
+  <path d="M 259.582 212.452 L 305.273 165.659 L 259.582 78.656 C 255.244 70.398 244.704 69.532 240.411 77.815 L 215.162 126.458 L 214.406 128.945 L 259.582 212.452 Z" fill="#FFA50E" fill-rule="evenodd" style=""/>
+  <path d="M 259.582 212.452 L 305.273 165.659 L 259.582 78.656 C 255.244 70.398 244.704 69.532 240.411 77.815 L 215.162 126.458 L 214.406 128.945 L 259.582 212.452 Z" filter="url(#d)" style=""/>
+  <path fill="#F6820C" d="M 67.89 403.583 L 69.262 402.203 L 74.248 400.178 L 257.469 217.637 L 259.79 211.318 L 214.084 124.22 Z" style=""/>
+  <path d="M 266.29 495.642 L 432.11 403.164 L 384.758 111.534 C 383.276 102.41 372.083 98.803 365.551 105.345 L 67.89 403.583 L 232.759 495.635 C 243.178 501.452 255.869 501.455 266.29 495.642" fill="#FDE068" style=""/>
+  <path d="M 430.624 402.388 L 383.631 112.973 C 382.162 103.917 372.853 100.171 366.371 106.664 L 69.73 403.016 L 232.789 494.155 C 243.129 499.928 255.722 499.932 266.065 494.164 L 430.626 402.387 Z" fill="#FCCA3F" style=""/>
+  <path d="M 266.289 492.917 C 255.867 498.73 243.178 498.727 232.759 492.91 L 69.218 402.181 L 67.891 403.583 L 232.759 495.635 C 243.178 501.452 255.869 501.455 266.29 495.642 L 432.11 403.164 L 431.704 400.666 L 266.29 492.919 Z" fill="#EEAB37" style=""/>
+</svg>

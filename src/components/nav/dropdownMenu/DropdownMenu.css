@@ -1,0 +1,66 @@
+.dropdown-menu {
+    height: 10vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 84%, rgba(249,249,249,1) 100%);
+    position: fixed;
+    top: 0;
+    width: 100vw;
+  }
+  
+  .nav-list {
+    position: fixed;
+    top: 8vh;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(103, 15, 215);
+    background: linear-gradient(
+      180deg,
+      rgba(103, 15, 215, 1) 0%,
+      rgba(117, 16, 247, 1) 50%,
+      rgba(103, 15, 215, 1) 100%
+    );
+    left: 100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  
+  .nav-list.active {
+    left: -10vw;
+  }
+  
+  
+  .nav {
+    padding: 1rem 0 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu-icon {
+    padding: 0.25rem;
+    margin-right: 1rem;
+  }
+  
+  .nav-item {
+    display: block;
+    line-height: 2rem;
+    margin: 2rem auto 1.5rem auto;
+  }
+  
+  .nav-item:hover {
+    border-bottom: solid 2px rgba(103, 15, 215, 1);
+  }
+  
+  .nav-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .fa-bars {
+    color: #fff;
+  }
+  

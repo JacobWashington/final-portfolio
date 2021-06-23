@@ -1,0 +1,27 @@
+.my-logo {
+    background-color: black;
+    padding: .25rem;
+    text-align: center;
+    margin-left: 1rem;
+    width: 12vw;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.brand {
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.25rem;
+    margin: 0.25rem;
+}
+
+.footer-logo {
+    background-color: white;
+    padding: .25rem;
+    color: black;
+    text-align: center;
+    width: 12vw;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 1.25rem;
+}

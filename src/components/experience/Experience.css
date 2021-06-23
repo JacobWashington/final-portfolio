@@ -1,0 +1,46 @@
+.card-logo {
+  max-width: 200px;
+  min-width: 100px;
+  margin: 0;
+}
+
+.card.back {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.main {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+}
+
+.sub {
+  margin: 0;
+  padding-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.ul {
+  padding: 0;
+}
+
+.arrow {
+  margin: auto;
+  cursor: pointer;
+  -webkit-animation: float-down 1s infinite alternate;
+  -moz-animation: float-down 1s infinite alternate;
+  -ms-animation: float-down 1s infinite alternate;
+  animation: float-down 1s infinite alternate;
+  color: #cccccc;
+}
+
+/* Arrow animations */
+@keyframes float-down {
+  0% {
+    transform: translate3d(0, 0px, 0);
+  }
+  100% {
+    transform: translate3d(0, -10px, 0);
+  }
+}
