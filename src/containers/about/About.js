@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css"
+import resume from "../../DesignResume1.pdf";
 
 const About = (props) => {
   return (
@@ -29,6 +30,11 @@ const About = (props) => {
             <span className="keyword">confident</span>, naturally{" "}
             <span className="keyword">curious</span>, and perpetually working to
             improve myself as a developer.
+          </p>
+        </div>
+        <div className="download">
+          <p className="resume">
+            Want to know more? Download my <a className="resume" href={resume} download="JacobWashington Resume">resume</a>!
           </p>
         </div>
       </div>

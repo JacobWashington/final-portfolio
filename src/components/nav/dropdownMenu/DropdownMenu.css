@@ -60,6 +60,14 @@
     text-decoration: none;
   }
   
+  .menu-resume {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+  }
+  
   .fa-bars {
     color: #fff;
   }

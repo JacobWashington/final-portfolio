@@ -29,3 +29,20 @@
   font-size: 1.5rem;
   margin: 0;
 }
+
+.download {
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.resume {
+  color: white;
+  font-weight: 600;
+}
+
+a.resume {
+  font-family: "Inter", sans-serif;
+  text-decoration: underline;
+  color: white;
+}
