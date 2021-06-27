@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css"
-import resume from "../../DesignResume1.pdf";
+import resume from "../../JacobWashingtonResume.pdf";
 
 const About = (props) => {
   return (

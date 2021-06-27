@@ -3,7 +3,7 @@ import "./DropdownMenu.css";
 import Logo from "../../logo/Logo";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, AnimateScroll } from "react-scroll";
-import resume from "../../../DesignResume1.pdf";
+import resume from "../../../JacobWashingtonResume.pdf";
 
 const DropdownMenu = (props) => {
   const [click, setClick] = useState(false);
