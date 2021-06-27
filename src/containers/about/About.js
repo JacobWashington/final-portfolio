@@ -34,7 +34,7 @@ const About = (props) => {
         </div>
         <div className="download">
           <p className="resume">
-            Want to know more? Download my <a className="resume" href={resume} download="JacobWashington Resume">resume</a>!
+            Want to know more? Download my <a className="resume" href={resume} download="JacobWashingtonResume">resume</a>!
           </p>
         </div>
       </div>

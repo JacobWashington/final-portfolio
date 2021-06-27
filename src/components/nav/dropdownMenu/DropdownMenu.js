@@ -102,7 +102,7 @@ const DropdownMenu = (props) => {
             </Link>
           </li>
           <li className="nav-item">
-            <a className="menu-resume" href={resume} download="JacobWashington Resume" onClick={handleClick}>Download Resume</a>
+            <a className="menu-resume" href={resume} download="JacobWashingtonResume" onClick={handleClick}>Download Resume</a>
           </li>
         </ul>
       </div>
