@@ -34,6 +34,9 @@
   width: 50vw;
   text-align: center;
   font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 3rem;
   border-radius: 12px;
   box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
@@ -59,4 +62,14 @@ a {
 
 .keyword {
   color: #f77510;
+}
+
+@media only screen and (min-width: 600px) {
+  .experience-edu > .card {
+    width: 30vw;
+  }
+
+  .experience-emp > .card {
+    width: 30vw;
+  }
 }
