@@ -26,7 +26,7 @@ const Contact = (props) => {
         </div>
         <div className="copyright">
             <p className="footer last">
-                Handcrafter by me © jacobwashington
+                Handcrafted by me © jacobwashington
             </p>
         </div>
       </div>
