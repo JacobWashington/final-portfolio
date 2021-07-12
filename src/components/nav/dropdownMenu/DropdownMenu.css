@@ -10,6 +10,7 @@
   position: fixed;
   top: 0;
   width: 100vw;
+  z-index: 100;
 }
 
 .nav-list {
@@ -64,6 +65,7 @@
 
 .nav-item:hover {
   border-bottom: solid 2px rgba(103, 15, 215, 1);
+  cursor: pointer;
 }
 
 .nav-link {
