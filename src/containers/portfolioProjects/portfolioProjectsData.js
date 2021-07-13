@@ -1,4 +1,7 @@
 import jargonScreenshot from "../../images/screenshots/jargon.PNG";
+import flakattackScreenshot from "../../images/screenshots/flakAttack.PNG";
+import portfolioScreenshot from "../../images/screenshots/portfolioScreenshot.PNG";
+import swirvScreenshot from "../../images/screenshots/swirv.PNG";
 import express from "../../images/logos/express.svg";
 import firebase from "../../images/logos/firebase.svg";
 import heroku from "../../images/logos/heroku.svg";
@@ -7,7 +10,7 @@ import js from "../../images/logos/javascript.svg";
 import mongoDB from "../../images/logos/mongodb-icon.svg";
 import node from "../../images/logos/nodejs.svg";
 import pg from "../../images/logos/postgresql.svg";
-import react from "../../images/logos/react.svg";
+import reactLogo from "../../images/logos/react.svg";
 import css from "../../images/logos/css.svg";
 import jwt from "../../images/logos/jwt.svg";
 import mongoose from "../../images/logos/mongoose.svg";
@@ -15,14 +18,13 @@ import passport from "../../images/logos/passport.svg";
 import ejs from "../../images/logos/ejs.svg";
 import axios from "../../images/logos/axios.svg";
 
-
 const portfolioProjectsData = [
   {
-    title: "My Portfolio",
+    title: "j.Dev Portfolio",
     techUsed: [
       {
         tech: "React",
-        logo: react,
+        logo: heroku,
       },
       {
         tech: "JavaScript",
@@ -46,7 +48,7 @@ const portfolioProjectsData = [
       frontend: "",
       backend: "",
     },
-    screenshot: "",
+    screenshot: portfolioScreenshot,
   },
   {
     title: "Swirv",
@@ -61,7 +63,7 @@ const portfolioProjectsData = [
       },
       {
         tech: "React",
-        logo: react,
+        logo: reactLogo,
       },
       {
         tech: "Passport",
@@ -76,16 +78,16 @@ const portfolioProjectsData = [
         logo: axios,
       },
       {
-          tech: "NodeJS",
-          logo: node,
-      }
+        tech: "NodeJS",
+        logo: node,
+      },
     ],
     link: "https://swirv-application.herokuapp.com/",
     github: {
       frontend: "https://github.com/JacobWashington/swirv-frontend-application",
       backend: "https://github.com/JacobWashington/swirv-api",
     },
-    screenshot: "",
+    screenshot: swirvScreenshot,
   },
   {
     title: "Flak Attack",
@@ -108,7 +110,7 @@ const portfolioProjectsData = [
       frontend: "https://github.com/JacobWashington/Flak-Attack-Game",
       backend: "",
     },
-    screenshot: "",
+    screenshot: flakattackScreenshot,
   },
   {
     title: "jargon",

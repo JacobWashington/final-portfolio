@@ -5,7 +5,14 @@ import portfolioProjectsData from "./portfolioProjectsData";
 
 const PortfolioProjects = (props) => {
   let mappedProject = portfolioProjectsData.map((project, index) => {
-    return <PortfolioProject />;
+    return (
+      <PortfolioProject
+        main={project.title}
+        sub={project.techUsed}
+        screenshot={project.screenshot}
+        key={index}
+      />
+    );
   });
 
   return (
