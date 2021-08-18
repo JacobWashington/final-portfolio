@@ -1,19 +1,24 @@
 .project-card {
-  width: 50vw;
+  width: 70vw;
+  padding: 3rem 0.5rem 3rem 0.5rem;
   text-align: center;
   font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem;
   border-radius: 12px;
   box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
   margin: 0 auto 2rem auto;
   background: #ffffff;
 }
 
-.p-sub {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+.tech-used {
+
+}
+
+@media only screen and (min-width: 600px) {
+  .project-card {
+    width: 30vw;
+    padding: 3rem;
+  }
 }

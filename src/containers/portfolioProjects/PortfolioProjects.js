@@ -8,6 +8,7 @@ const PortfolioProjects = (props) => {
     return (
       <PortfolioProject
         main={project.title}
+        description={project.description}
         sub={project.techUsed}
         screenshot={project.screenshot}
         key={index}
