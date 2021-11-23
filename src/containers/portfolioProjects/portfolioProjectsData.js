@@ -20,6 +20,48 @@ import axios from "../../images/logos/axios.svg";
 
 const portfolioProjectsData = [
   {
+    title: "Aerospace Landing Page",
+    techUsed: [
+      {
+        tech: "React",
+        logo: reactLogo,
+      },
+      {
+        tech: "Firebase",
+        logo: firebase,
+      },
+    ],
+    link: "https://exquadrum-3eac1.web.app/",
+    github: {
+      frontend: "",
+      backend: "",
+    },
+    screenshot: swirvScreenshot,
+  },
+  {
+    title: "Flak Attack",
+    techUsed: [
+      {
+        tech: "HTML5",
+        logo: html,
+      },
+      {
+        tech: "JavaScript",
+        logo: js,
+      },
+      {
+        tech: "CSS",
+        logo: css,
+      },
+    ],
+    link: "https://jacobwashington.github.io/Flak-Attack-Game/",
+    github: {
+      frontend: "https://github.com/JacobWashington/Flak-Attack-Game",
+      backend: "",
+    },
+    screenshot: flakattackScreenshot,
+  },
+  {
     title: "j.Dev Portfolio",
     techUsed: [
       {

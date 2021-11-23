@@ -7,6 +7,7 @@ const PortfolioProjects = (props) => {
   let mappedProject = portfolioProjectsData.map((project, index) => {
     return (
       <PortfolioProject
+        link={project.link}
         main={project.title}
         description={project.description}
         sub={project.techUsed}

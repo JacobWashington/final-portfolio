@@ -10,56 +10,61 @@ import HTML5 from "../../images/logos/html5.svg";
 import JS from "../../images/logos/javascript.svg";
 import Solidity from "../../images/logos/solidity.svg";
 import Py from "../../images/logos/python.svg";
+import Rust from "../../images/logos/rust.svg";
 
 const skillsData = [
-    {
-        skill: "Express",
-        logo: Express
-    },
-    {
-        skill: "MongoDB",
-        logo: Mongo
-    },
-    {
-        skill: "PosgreSQL",
-        logo: Postgres
-    },
-    {
-        skill: "React",
-        logo: ReactLogo
-    },
-    {
-        skill: "Bootstrap",
-        logo: Bootstrap
-    },
-    {
-        skill: "Git",
-        logo: Git
-    },
-    {
-        skill: "HTML5",
-        logo: HTML5
-    },
-    {
-        skill: "Heroku",
-        logo: Hero
-    },
-    {
-        skill: "Javascript ES6",
-        logo: JS
-    },
-    {
-        skill: "NodeJS",
-        logo: NodeJS
-    },
-    {
-        skill: "Solidity",
-        logo: Solidity
-    },
-    {
-        skill: "Python",
-        logo: Py
-    }
-]
+  {
+    skill: "Express",
+    logo: Express,
+  },
+  {
+    skill: "MongoDB",
+    logo: Mongo,
+  },
+  {
+    skill: "PosgreSQL",
+    logo: Postgres,
+  },
+  {
+    skill: "React",
+    logo: ReactLogo,
+  },
+  {
+    skill: "Bootstrap",
+    logo: Bootstrap,
+  },
+  {
+    skill: "Git",
+    logo: Git,
+  },
+  {
+    skill: "HTML5",
+    logo: HTML5,
+  },
+  {
+    skill: "Heroku",
+    logo: Hero,
+  },
+  {
+    skill: "Javascript ES6",
+    logo: JS,
+  },
+  {
+    skill: "NodeJS",
+    logo: NodeJS,
+  },
+  {
+    skill: "Solidity",
+    logo: Solidity,
+  },
+  {
+    skill: "Python",
+    logo: Py,
+  },
+  {
+    skill: "Rust",
+    logo: Rust,
+  },
+];
 
 export default skillsData;

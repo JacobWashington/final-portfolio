@@ -9,8 +9,12 @@ const PortfolioProject = (props) => {
     techArr.push(tech.tech);
   });
 
+  const onClickCard = () => {
+    window.open(props.link, '_blank').focus();
+  }
+
   return (
-    <div className="project-card">
+    <div className="project-card" onClick={onClickCard}>
     <h2>{props.main}</h2>
     <div>
       <p className="project-description">{props.description}</p>
